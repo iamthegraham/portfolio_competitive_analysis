@@ -1,0 +1,32 @@
+body { color: white }
+body { background-color: black }
+a:link {color: #FFCC00; text-decoration: underline; }
+a:active {color: #0FF0000; text-decoration: underline; }
+a:visited {color: #CC3399; text-decoration: underline; }
+a:hover {color: #0000FF; text-decoration: none; }
+
+.imagelink img{
+border: 3px solid black;
+}
+
+.imagelink:hover img{
+border: 3px solid red;
+}
+
+.imagelink:hover{
+border: 1px red;
+color: white; /* Dummy definition to overcome IE bug */
+}
+
+.hovercell {
+font-family: arial;
+border: 1px solid white;
+color: white;
+}
+
+.hovercell:hover{
+font-family: arial;
+font-weight: bold;
+border: 3px solid white;
+color:white;
+}
